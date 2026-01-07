@@ -9,7 +9,19 @@ This documentation project is built using [MkDocs](https://www.mkdocs.org/).
 
 ## Installation
 
-1. Install MkDocs and the Material theme:
+Since the system python is managed, it is best to use a virtual environment:
+
+1. Create a virtual environment:
+   ```bash
+   python3 -m venv venv
+   ```
+
+2. activate the environment (optional, but recommended):
+   ```bash
+   source venv/bin/activate
+   ```
+
+3. Install requirements inside the environment:
    ```bash
    pip install mkdocs mkdocs-material
    ```
@@ -21,7 +33,11 @@ This documentation project is built using [MkDocs](https://www.mkdocs.org/).
    cd /var/www/html/doc
    ```
 
-2. Start the development server:
+2. Start the development server (using the virtual environment):
+   ```bash
+   ./venv/bin/mkdocs serve
+   ```
+   Or if you activated the environment:
    ```bash
    mkdocs serve
    ```
