@@ -1,0 +1,18 @@
+site_name: Hybritech MES Documentation
+theme:
+  name: material
+  palette:
+    primary: indigo
+    accent: blue
+  features:
+    - navigation.tabs
+    - navigation.expand
+
+nav:
+  - Home: index.md
+  - Modules:
+    - Production: production.md
+    - Purchase: purchase.md
+    - Store Management: store.md
+    - QA & QC: qa_qc.md
+    - Base Data: base_data.md
