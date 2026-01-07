@@ -15,3 +15,4 @@ The Dashboard serves as the central launchpad for all system modules.
 - **Store Management**: Track inventory levels, stock value, and material movements.
 - **QA & QC**: Ensure product quality standards (currently under development).
 - **Base Data Management**: Configure system-wide master data.
+- **Sales**: Manage sales orders, clients, and audit trail.

@@ -44,6 +44,8 @@ Since the system python is managed, it is best to use a virtual environment:
 
 3. Open your browser and go to `http://127.0.0.1:8000/`.
 
+4. /venv/bin/mkdocs serve -a 0.0.0.0:8000
+
 ## Building for Production
 
 To build the static site:
